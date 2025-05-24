@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="script.js" defer></script>
+    
+    <style>
+        .selected{
+            background-color: green;
+        };
+    </style>
+
+</head>
+<body>
+    <button class="btn"> B1 </button>
+    <button class="btn"> B2 </button>
+    <button class="btn"> B3 </button>
+
+    <br>
+    <button id="vbtn">Zmień Widoczność</button>
+
+    <p id="vel">TEXT</p>
+
+    <br>
+    <input id="add_inpt" type="text">
+    <button class="add_btn" onclick="add_element()">Add Element</button>
+
+    <ul></ul>
+
+    <input id="name_inpt" type="text" placeholder="name">
+    <input id="surname_inpt" type="text" placeholder="surname">
+    <button id="add_fullname" onclick="add_fullname()">Add</button>
+
+    <table>
+        <tr><td><b>Imię</b></td><td><b>Nazwisko</b></td></tr>
+    </table>
+
+</body>
+</html>
